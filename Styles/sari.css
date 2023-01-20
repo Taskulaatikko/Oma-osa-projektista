@@ -1,0 +1,404 @@
+
+header{
+    background-color: #274247;
+    font-size: 4em;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Patrick Hand SC', cursive;
+    color: #ecce24; 
+    padding-right: 1.4em; 
+}
+header img{
+    float: left;
+    padding-left: 7%;   
+}
+
+
+.my-button {
+    background-color: transparent;
+    border: 10px;
+    color: black;
+    cursor: pointer;
+    font-size: 30px;
+    margin-left: 32px;
+    float: left;
+    line-height: 70px;
+    display: none;
+}
+  
+.my-button:focus {
+    outline: none;
+}
+
+#hamppari{
+    display: none;
+}
+
+#navi{
+    height: 50%;
+    padding-left: 70px;    
+}
+
+.navbar{
+    background-color: #ecce24d7;
+    border-radius: 1em;
+    padding-left: 50px;
+}
+
+nav{
+    font-family: 'Patrick Hand SC', cursive; 
+    flex-wrap: wrap;
+}
+
+footer{
+    background-color:#274247;
+    font-size: 0.3em;
+    color: #ecce24;
+    height: 20em;
+    align-items: center;
+    padding-top: 5em;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+#article{
+    background-position:bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:978px;
+    background-color: #EDE9E8;
+    opacity: 80%;
+    color: black;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+#indexTitle{
+    margin:5px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background: url(../Images/Sari/night-3078326_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.img{
+    position: fixed;
+}
+
+#title{
+    text-align: center;
+    padding: 0.8rem 0;
+    font-size: 3rem;
+    color: #418a91;
+    background: #54b0b8a1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.questions{
+    margin-left: 8rem;
+    margin-top: 1rem;
+    padding: 2rem;
+    background: #1d6c68;
+    opacity: 95%;
+    cursor: default;
+    border-radius: 1em;
+    width: 50%;
+}
+
+.option{
+    margin-left: 23%;
+}
+
+#question{
+    margin-bottom: 1rem;
+    margin-right: 10%;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.option{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    width: 10rem;
+    background: #ecce24;
+    border-radius: 1em;
+}
+
+.option:hover{
+    color: #fff;
+}
+
+ol{
+    position: relative;
+    padding: 0 1.5rem;
+    color: black;
+}
+
+span{
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1em;
+}
+
+#answer{
+    margin-top: 2.5rem;
+}
+
+#stat{
+    margin-top: 1.5;
+    color: black;
+    font-size: 1em;
+}
+
+.buttons{
+    text-align: center;
+}
+
+button{
+    padding: 0.2rem 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    border-radius: 1em;
+    color: #54afb8;
+    background: #216369;
+    margin: 0.3rem;
+}
+
+button:active{
+    background: #ecce24;
+}
+
+#scorecard,#answerBank{
+    width: 20rem;
+    background: #ffffcf;
+    padding: 1em;
+    text-align: center;
+    margin-left: 10em;
+    margin-bottom: 2em;
+    position: relative;
+    top: 1em;
+    display: none;
+    border-radius: 1em;
+}
+
+#answerBank img{
+width: 10em;
+}
+
+#score-title{
+    margin: 1rem 0;
+}
+
+#score-btn,#check-answer{
+    margin-top: 1rem;
+}
+
+#score{
+    font-size: 2.5rem;
+}
+
+#anwerBank li{
+    text-align: left;
+    margin-bottom: 0.2rem;
+    font-size: large;
+}
+
+#answers{
+    margin-top: 1rem;
+}
+
+h1{
+    color:#194410;
+    background-color: #ecce24d5;
+    width: 10em;
+    margin-left: 4.2em;
+}
+
+h2{
+    color:#104044;
+    font-size: 1.4rem;
+}
+
+h3{
+    font-size: 1.4rem;
+}
+
+h4{
+    font-size: 1.2rem;
+    padding-left: 3em;
+}
+
+#scoreboard img{
+    width: 100%;
+    height: 90%;
+}
+
+#questions{
+    align-self: center;
+}
+
+#stat{
+    margin-right: 6.5em;
+}
+
+.visa{
+    width: 80%;
+    margin: 5px 0px 15px 0px;
+}
+
+.hidden{
+    display: none;
+}
+
+.image{
+    width: 150px;
+    height: auto;
+}
+
+img{
+    padding-left: 3px;
+}
+
+.my-button {
+    background-color: transparent;
+    border: 10px;
+    color: black;
+    cursor: pointer;
+    font-size: 30px;
+    margin-left: 32px;
+    float: left;
+    line-height: 70px;
+    display: none;
+  }
+
+  .my-button:focus {
+    outline: none;
+  }
+
+@media screen and (max-width:1200px){
+
+    header{
+        font-size: 40px;
+        height: 110px;
+    }
+
+    header img{
+        display: none;
+    }
+
+    #navi{
+        padding-left:0px;
+        margin:0;
+    }
+
+    .navbar{
+        background-color: #ecede8;
+        padding-left:0px;
+        background: #ecce24d7;
+        margin-left: 15px;
+    }
+
+    .navbar-brand{
+        font-size:15px;
+        text-align: center;
+        padding-left:6px;
+    }
+    
+    .questions, #scorecard{
+        width:300px;
+        margin-left: 0px;
+    }
+
+    h1{
+        width:300px;
+        margin-left: 0px;
+    }
+    
+    #stat{
+        font-size: smaller;
+    }
+
+    #scorecard{
+        margin-left: 30px;
+    }
+
+    #answerBank{
+        margin-left: 30px;
+    }
+
+
+}
+
+@media only screen and (max-width:500px){
+
+        [class*="col-"] {
+            width: 100%;
+        }
+
+        nav ul {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+          }
+          
+          nav ul.show {
+            display: flex;
+          }
+          
+          .my-button {
+            display: block;
+          }
+
+          #mynav{
+            background-color: #104044;
+          }
+
+          #navi {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+        }
+
+          header{
+            height: 80px;
+            padding-top: 0.2px;
+        }
+
+          h1{
+            font-size: 20px;
+            width: 100%;
+        }
+
+        .questions{
+            width: 100%;
+        }
+
+        footer{
+            height: 80px;
+            margin: 5px;
+        }
+
+        #answerBank{
+            margin-left: 73px;
+        }
+
+        #scorecard{
+            margin-left: 80px;
+        }
+
+        #hamppari{
+            display: flex;
+        }
+
+}
